@@ -53,4 +53,4 @@ for i = 1:length(N)
     status = 'TIDAK LAYAK';
   end
   fprintf('n = %d : rerata galat mutlak = %.6e | rerata galat relatif = %.6e %% | %s\n', N(i), rerata_abs, rerata_rel, status);
-end===
+end
