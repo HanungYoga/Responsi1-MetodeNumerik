@@ -12,7 +12,7 @@ h_pend = zeros(length(N), length(t));
 for i = 1:length(N)
   n = N(i);
   cos_pend = zeros(size(t));
-  exp_pend = 0;===============
+  exp_pend = 0;
   for k = 0:n
     cos_pend = cos_pend + (-1)^k * z.^(2*k) / factorial(2*k);
     exp_pend = exp_pend + x^k / factorial(k);
